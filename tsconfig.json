@@ -1,0 +1,13 @@
+{
+	"include": ["**/*.ts", "**/*.txt"],
+	"compilerOptions": {
+		"module": "CommonJS",
+		"esModuleInterop": true,
+		"target": "es6",
+		"moduleResolution": "node",
+		"sourceMap": true,
+		"outDir": "dist",
+		"jsx": "preserve",
+		"lib": ["es2015", "ES2021.String"]
+	}
+}

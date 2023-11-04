@@ -1,0 +1,27 @@
+{
+	"name": "codember",
+	"version": "1.0.0",
+	"main": "dist/index.js",
+	"repository": "git@github.com:raymundo-salazar/codember.git",
+	"author": "Raymundo Salazar <raymundo.salser@hotmail.com>",
+	"license": "MIT",
+	"bin": {
+		"codember": "./dist/index.js"
+	},
+	"devDependencies": {
+		"@types/nodemon": "^1.19.4",
+		"@types/yargs": "^17.0.29",
+		"typescript": "^5.2.2"
+	},
+	"scripts": {
+		"build": "tsc",
+		"develop": "tsc -w"
+	},
+	"dependencies": {
+		"boxen": "^7.1.1",
+		"chalk": "4.1.2",
+		"figlet": "^1.7.0",
+		"nodemon": "^3.0.1",
+		"yargs": "^17.7.2"
+	}
+}
