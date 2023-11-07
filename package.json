@@ -9,19 +9,20 @@
 		"codember": "./dist/index.js"
 	},
 	"devDependencies": {
-		"@types/nodemon": "^1.19.4",
 		"@types/yargs": "^17.0.29",
+		"copyfiles": "^2.4.1",
 		"typescript": "^5.2.2"
 	},
 	"scripts": {
-		"build": "tsc",
-		"develop": "tsc -w"
+		"build": "yarn build:typescript && yarn build:copyfiles",
+		"build:copyfiles": "copyfiles -u 1 ./assets/*.txt ./dist/assets",
+		"build:typescript": "tsc",
+		"develop": "yarn build && yarn watch:typescript",
+		"watch:typescript": "tsc -w",
+		"codember": "dist/index.js"
 	},
 	"dependencies": {
-		"boxen": "^7.1.1",
 		"chalk": "4.1.2",
-		"figlet": "^1.7.0",
-		"nodemon": "^3.0.1",
 		"yargs": "^17.7.2"
 	}
 }
