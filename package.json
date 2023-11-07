@@ -22,6 +22,7 @@
 		"codember": "dist/index.js"
 	},
 	"dependencies": {
+		"@types/node": "^20.8.10",
 		"chalk": "4.1.2",
 		"yargs": "^17.7.2"
 	}
