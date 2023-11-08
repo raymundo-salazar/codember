@@ -1,5 +1,4 @@
-#!/usr/bin/env node
-import yargs from "yargs"
+import yargs, { Argv } from "yargs"
 import chalk from "chalk"
 import { hideBin } from "yargs/helpers"
 import { IArgvs } from "./types"
@@ -15,7 +14,7 @@ process.stdout.write(chalk.green(logo.replace("{{year}}", `${defaultYear}`)))
 
 const options: any = yargs(hideBin(process.argv))
 	.command("about_me", "More about me")
-	.command("challenge <number>", "Select the exercise to get result by year", yargs => {
+	.command("challenge <number>", "Select the exercise to get result by year", (yargs: Argv<{}>) => {
 		yargs
 			.positional("number", {
 				alias: "n",
@@ -66,7 +65,7 @@ try {
 			process.stdout.write(chalk.bold(`Challenge ${challengeNumber}:\n`))
 			process.stdout.write(res + "\n")
 		})
-} catch (error) {
+} catch (error: any) {
 	if (error.code === "MODULE_NOT_FOUND")
 		console.error(
 			chalk.red(
