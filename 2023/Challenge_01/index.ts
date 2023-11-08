@@ -5,11 +5,11 @@ import { IDescription } from "../../types"
 const Challenge01 = async () => {
 	const textURL = path.join(__dirname, "..", "..", "assets", "./message_01.txt")
 	const text = fs.readFileSync(textURL, { encoding: "utf-8" })
-	const words = {}
+	const words: { [name: string]: number } = {}
 	text
 		.toLowerCase()
 		.split(" ")
-		.forEach(word => {
+		.forEach((word: string) => {
 			word = word.replace(/\W/, "")
 			if (!words[word]) words[word] = 0
 			words[word]++

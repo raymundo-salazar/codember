@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+
 import yargs, { Argv } from "yargs"
 import chalk from "chalk"
 import { hideBin } from "yargs/helpers"
