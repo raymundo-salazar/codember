@@ -17,12 +17,12 @@ By. [midudev](https://midu.dev)
 
 | #   | Challenge          | Solved |
 | --- | ------------------ | ------ |
-| 01  | Blured image       | ✅     |
+| 01  | Secret code        | ✅     |
 | 02  | You have and email | ✅     |
-| 03  | Secret code        | ✅     |
+| 03  | Blured image       | ✅     |
 | 04  | Confetti           | ✅     |
-| 05  | It's Magic         | ✅     |
-| 06  | Riddle             | ✅     |
+| 05  | Riddle             | ✅     |
+| 06  | It's Magic         | ✅     |
 
 # Execute resolutions
 
