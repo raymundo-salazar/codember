@@ -8,9 +8,10 @@ By. [midudev](https://midu.dev)
 
 ### Challenges
 
-| #   | Challenge | Solved |
-| --- | --------- | ------ |
-| 01  | The spy   | ✅     |
+| #   | Challenge               | Solved |
+| --- | ----------------------- | ------ |
+| 01  | The spy                 | ✅     |
+| 02  | Mini Compiler Challenge | ✅     |
 
 ### Secrets
 
@@ -19,6 +20,9 @@ By. [midudev](https://midu.dev)
 | 01  | Blured image       | ✅     |
 | 02  | You have and email | ✅     |
 | 03  | Secret code        | ✅     |
+| 04  | Confetti           | ✅     |
+| 05  | It's Magic         | ✅     |
+| 06  | Riddle             | ✅     |
 
 # Execute resolutions
 

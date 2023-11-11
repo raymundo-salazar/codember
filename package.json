@@ -15,7 +15,7 @@
 	},
 	"scripts": {
 		"build": "yarn build:typescript && yarn build:copyfiles",
-		"build:copyfiles": "copyfiles -u 1 ./assets/*.txt ./dist/assets",
+		"build:copyfiles": "copyfiles -u 1 ./assets/**/*.txt ./dist/assets",
 		"build:typescript": "tsc",
 		"develop": "yarn build && yarn watch:typescript",
 		"watch:typescript": "tsc -w",
