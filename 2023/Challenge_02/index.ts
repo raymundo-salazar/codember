@@ -11,7 +11,7 @@ const reference = {
 	"&": (a: number): number => a,
 }
 
-const Challenge01 = async () => {
+const Challenge02 = async () => {
 	let value = 0
 	const textPath = path.join(
 		__dirname,
@@ -35,4 +35,4 @@ const Challenge01 = async () => {
 }
 
 export { description }
-export default Challenge01
+export default Challenge02

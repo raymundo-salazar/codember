@@ -8,14 +8,15 @@ By. [midudev](https://midu.dev)
 
 ### Challenges
 
-| #   | Challenge               | Solved |
-| --- | ----------------------- | ------ |
-| 01  | The spy                 | ✅     |
-| 02  | Mini Compiler Challenge | ✅     |
+| #   | Challenge                    | Solved |
+| --- | ---------------------------- | ------ |
+| 01  | The spy                      | ✅     |
+| 02  | Mini Compiler Challenge      | ✅     |
+| 03  | The Spy Encryption Challenge | ✅     |
 
 ### Secrets
 
-| #   | Challenge          | Solved |
+| #   | Secrets            | Solved |
 | --- | ------------------ | ------ |
 | 01  | Secret code        | ✅     |
 | 02  | You have and email | ✅     |
