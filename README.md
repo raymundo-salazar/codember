@@ -20,10 +20,13 @@ By. [midudev](https://midu.dev)
 | --- | ------------------ | ------ |
 | 01  | Secret code        | ✅     |
 | 02  | You have and email | ✅     |
-| 03  | Blured image       | ✅     |
+| 03  | Blured image (1)   | ✅     |
 | 04  | Confetti           | ✅     |
 | 05  | Riddle             | ✅     |
 | 06  | It's Magic         | ✅     |
+| 07  | Barrel Rol         | ✅     |
+| 08  | Martian Fool's Day | ✅     |
+| 09  | Blured Imaege (2)  | ✅     |
 
 # Execute resolutions
 
