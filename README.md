@@ -26,7 +26,7 @@ By. [midudev](https://midu.dev)
 | 06  | It's Magic         | ✅     |
 | 07  | Barrel Rol         | ✅     |
 | 08  | Martian Fool's Day | ✅     |
-| 09  | Blured Imaege (2)  | ✅     |
+| 09  | Blured image (2)   | ✅     |
 
 # Execute resolutions
 
