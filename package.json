@@ -10,8 +10,11 @@
 	},
 	"devDependencies": {
 		"@types/yargs": "^17.0.29",
+		"@types/node": "^20.8.10",
 		"copyfiles": "^2.4.1",
-		"typescript": "^5.2.2"
+		"typescript": "^5.2.2",
+		"chalk": "4.1.2",
+		"yargs": "^17.7.2"
 	},
 	"scripts": {
 		"build": "yarn build:typescript && yarn build:copyfiles",
@@ -21,9 +24,5 @@
 		"watch:typescript": "tsc -w",
 		"codember": "dist/index.js"
 	},
-	"dependencies": {
-		"@types/node": "^20.8.10",
-		"chalk": "4.1.2",
-		"yargs": "^17.7.2"
-	}
+	"dependencies": {}
 }

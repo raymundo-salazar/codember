@@ -13,6 +13,7 @@ By. [midudev](https://midu.dev)
 | 01  | The spy                      | ✅     |
 | 02  | Mini Compiler Challenge      | ✅     |
 | 03  | The Spy Encryption Challenge | ✅     |
+| 04  | Hackers damage file system   | ✅     |
 
 ### Secrets
 
@@ -27,6 +28,7 @@ By. [midudev](https://midu.dev)
 | 07  | Barrel Rol         | ✅     |
 | 08  | Martian Fool's Day | ✅     |
 | 09  | Blured image (2)   | ✅     |
+| 10  | Cow say            | ✅     |
 
 # Execute resolutions
 
