@@ -23,6 +23,5 @@
 		"develop": "yarn build && yarn watch:typescript",
 		"watch:typescript": "tsc -w",
 		"codember": "dist/index.js"
-	},
-	"dependencies": {}
+	}
 }
