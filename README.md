@@ -31,8 +31,8 @@ By. [midudev](https://midu.dev)
 | 09  | Blured image (2)   | ✅     |
 | 10  | Cow say            | ✅     |
 | 11  | Riddle (2)         | ✅     |
-| 12  | Tetris             | ✅     |
-| 13  | AdventJS           | ✅     |
+| 12  | Play the game      | ✅     |
+| 13  | Martian ends log   | ✅     |
 
 # Execute resolutions
 
