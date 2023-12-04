@@ -1,5 +1,7 @@
 import fs from "fs"
 import path from "path"
+import chalk from "chalk"
+
 import description from "./description"
 
 const Challenge01 = async () => {
@@ -23,7 +25,8 @@ const Challenge01 = async () => {
 			words[word]++
 		})
 
-	return Object.entries(words).flat().join("")
+	const response = Object.entries(words).flat().join("")
+	return `${chalk.bold("RES 1")}: ${response}`
 }
 
 export { description }

@@ -1,7 +1,8 @@
 import fs from "fs"
 import path from "path"
-import description from "./description"
 import chalk from "chalk"
+
+import description from "./description"
 
 const Challenge04 = async () => {
 	const position = 33
@@ -37,9 +38,7 @@ const Challenge04 = async () => {
 		if (filtered == checksum) correct.push(checksum)
 		else incorrect.push(name)
 	})
-
-	console.log(correct.length)
-	return `${chalk.bold("RETO_4")}: ${correct[position - 1]}`
+	return `${chalk.bold("RES 4")}: ${correct[position - 1]}`
 }
 
 export { description }

@@ -1,7 +1,8 @@
 import fs from "fs"
 import path from "path"
-import description from "./description"
 import chalk from "chalk"
+
+import description from "./description"
 
 const Challenge03 = async () => {
 	const position = 42
@@ -25,7 +26,7 @@ const Challenge03 = async () => {
 		return !(letterCount >= min && letterCount <= max)
 	})
 
-	return `${chalk.bold("RETO_3")}: ${result[position - 1].split(": ")[1]}
+	return `${chalk.bold("RES 3")}: ${result[position - 1].split(": ")[1]}
 ${chalk.bold("PRIVATE_FOLER")}: ${result[folderPostion - 1].split(": ")[1]}
 `
 }

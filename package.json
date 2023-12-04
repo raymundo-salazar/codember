@@ -17,9 +17,10 @@
 		"yargs": "^17.7.2"
 	},
 	"scripts": {
-		"build": "yarn build:typescript && yarn build:copyfiles",
+		"build": "yarn build:typescript && yarn build:permissions && yarn build:copyfiles",
 		"build:copyfiles": "copyfiles -u 1 ./assets/**/*.txt ./dist/assets",
 		"build:typescript": "tsc",
+		"build:permissions": "chmod +x ./dist/index.js",
 		"develop": "yarn build && yarn watch:typescript",
 		"watch:typescript": "tsc -w",
 		"codember": "dist/index.js"

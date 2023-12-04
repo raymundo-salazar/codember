@@ -1,5 +1,7 @@
 import fs from "fs"
 import path from "path"
+import chalk from "chalk"
+
 import description from "./description"
 
 type THashItems = "#" | "@" | "*" | "&"
@@ -31,7 +33,8 @@ const Challenge02 = async () => {
 		})
 		.filter(ele => ele !== undefined)
 		.join("")
-	return response
+
+	return `${chalk.bold("RES 2")}: ${response}`
 }
 
 export { description }

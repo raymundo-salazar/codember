@@ -14,6 +14,7 @@ By. [midudev](https://midu.dev)
 | 02  | Mini Compiler Challenge      | ✅     |
 | 03  | The Spy Encryption Challenge | ✅     |
 | 04  | Hackers damage file system   | ✅     |
+| 05  | The Final Problem            | ✅     |
 
 ### Secrets
 
@@ -23,12 +24,15 @@ By. [midudev](https://midu.dev)
 | 02  | You have and email | ✅     |
 | 03  | Blured image (1)   | ✅     |
 | 04  | Confetti           | ✅     |
-| 05  | Riddle             | ✅     |
+| 05  | Riddle (1)         | ✅     |
 | 06  | It's Magic         | ✅     |
 | 07  | Barrel Rol         | ✅     |
 | 08  | Martian Fool's Day | ✅     |
 | 09  | Blured image (2)   | ✅     |
 | 10  | Cow say            | ✅     |
+| 11  | Riddle (2)         | ✅     |
+| 12  | Tetris             | ✅     |
+| 13  | AdventJS           | ✅     |
 
 # Execute resolutions
 
