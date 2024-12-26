@@ -5,8 +5,9 @@ import chalk from "chalk"
 import { hideBin } from "yargs/helpers"
 import { IArgvs } from "./types"
 import { logo } from "./assets/logo"
+import { exec } from "child_process"
 
-const availableYears = [2023]
+const availableYears = [2023, 2024]
 const currentDate = new Date()
 const defaultYear = availableYears.includes(currentDate.getFullYear())
 	? currentDate.getFullYear()
@@ -60,13 +61,46 @@ if (options._[0] == "about_me") {
 if (options._[0] != "challenge") process.exit()
 
 try {
-	const challenge = require(`./${year}/Challenge_${challengeNumber}`)
-	if (description) process.stdout.write(challenge.description[language] + "\n")
-	else
-		challenge.default().then((res: string) => {
+	if (year == 2024) {
+		// All challenges for this year are developed in python, so we need to run the python script and get the result to show it as a custom format
+		exec(`python3 ./${year}/Challenge_${challengeNumber}/index.py`, (error, stdout, stderr) => {
+			if (error) {
+				console.error(`exec error: ${error}`)
+				return
+			}
 			process.stdout.write(chalk.bold(`Challenge ${challengeNumber}:\n`))
-			process.stdout.write(res + "\n")
+			process.stdout.write(`${chalk.bold("RES")}: ${stdout}`)
+
+			if (stderr) {
+				console.error(`stderr: ${stderr}`)
+			}
+
+			if (error) {
+				console.error(`error: ${error}`)
+			}
+
+			if (error || stderr) {
+				console.error(
+					chalk.red(
+						chalk.bold("Error: "),
+						`Challenge number "${number}" not found. Please try again with another challenge number or year.\n`
+					)
+				)
+			}
+
+			if (error || stderr) {
+				process.exit(1)
+			}
 		})
+	} else {
+		const challenge = require(`./${year}/Challenge_${challengeNumber}`)
+		if (description) process.stdout.write(challenge.description[language] + "\n")
+		else
+			challenge.default().then((res: string) => {
+				process.stdout.write(chalk.bold(`Challenge ${challengeNumber}:\n`))
+				process.stdout.write(res + "\n")
+			})
+	}
 } catch (error: any) {
 	if (error.code === "MODULE_NOT_FOUND")
 		console.error(

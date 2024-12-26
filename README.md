@@ -3,7 +3,41 @@
 # codember
 
 By. [midudev](https://midu.dev)
+
 # [Codember](https://codember.dev) challenges solutions in TS and Node CLI
+
+## 2024
+
+### Challenges
+
+| #   | Challenge         | Solved |
+| --- | ----------------- | ------ |
+| 01  | Unlocked terminal | ✅     |
+| 02  | ----              | ❌     |
+| 03  | ----              | ❌     |
+| 04  | ----              | ❌     |
+| 05  | ----              | ❌     |
+
+### Secrets
+
+| #     | Secrets      | Solved |
+| ----- | ------------ | ------ |
+| 01    | ----         | ❌     |
+| 02    | Blured image | ✅     |
+| 03    | Secret code  | ✅     |
+| 04    | ----         | ❌     |
+| 05    | Confetti     | ✅     |
+| 06    | ----         | ❌     |
+| 07    | ----         | ❌     |
+| 08    | ----         | ❌     |
+| 09    | ----         | ❌     |
+| 10    | ----         | ❌     |
+| 11    | ----         | ❌     |
+| 12    | ----         | ❌     |
+| 13    | ----         | ❌     |
+| FINAL | ----         | ❌     |
+
+## 2023
 
 ### Challenges
 
