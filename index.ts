@@ -16,7 +16,6 @@ const defaultYear = availableYears.includes(currentDate.getFullYear())
 process.stdout.write(chalk.green(logo.replace("{{year}}", `${defaultYear}`)))
 
 const options: any = yargs(hideBin(process.argv))
-	.command("about_me", "More about me")
 	.command("challenge <number>", "Select the exercise to get result by year", (yargs: Argv<{}>) => {
 		yargs
 			.positional("number", {
